@@ -2,14 +2,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Expires" content="0">
+        <link rel="stylesheet" href="navbar.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="nav.css">
         <title>Document</title>
     </head>
+    <header>
+        <nav>
+            <input type="checkbox" id="check" >
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">AnimeX</label>
+        <ul>
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Lanzamientos recientes</a></li>
+            <li><a href="#">Contacto</a></li>
+            <!-- <li><input type="text" id="SearchAnime"/></il> -->
+        </ul>
+    </nav>
+    </header>
     <body>
         <div id="app">
 
                 <input type="text" id="SearchAnime"/>
-                <button onclick="load()">buscar</button>
+                <button onclick="load()" class="fa fa-search">buscar</button>
                <div id="container" class="container-app">
 
 
